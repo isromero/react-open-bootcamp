@@ -1,5 +1,6 @@
 import './App.css';
 import ComponentA from './components/componentA';
+import ContactComponent from './components/contactComponent';
 
 function App() {
 	const defaultContact = {
@@ -10,7 +11,8 @@ function App() {
 	}
   return (
     <div className="App">
-		<ComponentA contact={defaultContact}/>
+		{/* <ComponentA contact={defaultContact}/> */}
+		<ContactComponent/>
     </div>
   );
 }
